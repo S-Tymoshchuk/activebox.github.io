@@ -1,0 +1,43 @@
+.download {
+  margin: 100px 0;
+
+  @media screen and (max-width: 630px) {
+    margin: 50px 0;
+  }
+
+  &__inner {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 28px;
+    color: rgb(45, 48, 51);
+    line-height: 0.75;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 630px) {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+
+  &__text {
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(45, 48, 51);
+    text-transform: uppercase;
+    line-height: 1.615;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 630px) {
+      line-height: 1.5;
+    }
+  }
+}
+
+.btn--long {
+  min-width: 280px;
+}
+
+

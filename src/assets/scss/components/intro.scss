@@ -1,0 +1,93 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 750px;
+  padding-top: 100px;
+  background: url("/assets/img/headers/Layer 34.jpg") center no-repeat;
+  background-size: cover;
+
+  @media screen and (max-width: 991px) {
+    height: 650px;
+  }
+
+  @media screen and (max-width: 720px) {
+    height: auto;
+  }
+
+
+  &__title {
+    font-family: $subFont;
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 991px) {
+      font-size: 50px;
+    }
+
+    @media screen and (max-width: 720px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 25px;
+    }
+  }
+
+  &__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.092;
+
+    @media screen and (max-width: 720px) {
+      padding: 50px 0;
+    }
+
+  }
+
+  &__sub--title {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+
+    @media screen and (max-width: 720px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: uppercase;
+  line-height: 1.615;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background .1s linear;
+
+  &--red {
+    vertical-align: top;
+    padding: 14px 40px;
+    background-color: #e84545;
+  }
+
+  &--red:hover {
+    background-color: #BF3737;
+  }
+
+}
+
+
+
+
+
